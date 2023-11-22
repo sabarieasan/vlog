@@ -1,0 +1,25 @@
+.login-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(../../images/login.avif);
+  background-position: center;
+  background-size: cover;
+}
+.sign-form {
+  width: 350px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-form input {
+  width: 95%;
+}
+
+.sign-form button {
+  width: 100%;
+}
