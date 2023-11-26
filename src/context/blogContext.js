@@ -4,7 +4,7 @@ import { getUserData } from "../utils/firebaseFunctions";
 const BlogContext = createContext();
 
 export const BlogProvider = ({ children }) => {
-  const [isLogin, setIsLogin] = useState(true);
+  const [isLogin, setIsLogin] = useState(false);
   const [loginUser, setLoginUser] = useState("");
   const [users, setUsers] = useState([]);
 
